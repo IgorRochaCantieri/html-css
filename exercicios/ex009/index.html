@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Nerd.ico">
+    <title>Listas</title>
+    <style>
+        body{
+            background-color: rgb(102, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>Para trabalhar com listas ordenadas primeiro criamos a tag <mark style= "background-color: aqua;">&lt; ol &gt;.</mark>
+    Que significa order list (lista ordenada)
+    Depois dentro de &lt; ol &gt; utilizamos a tag <mark style="background-color: aqua;">&lt; li &gt;</mark> 
+    que significa item da lista.</p>
+
+    <ol type="I"> <!-- Types: 1, A, a, I, i-->
+
+        <li>Acordar</li>
+        <li>Ligar para joao</li>
+        <li>Escovar os dentes</li>
+        <li>abraçar minha mãe</li>
+
+    </ol>
+    <p>Podemos formatar as nossas listas por meio de tags. Basta dentro de &lt; ol &gt; utilizar o 
+        parametro <mark style="background-color: aqua;">type</mark> e escolher o tipo de item da lista voce deseja.
+    </p>
+    <h2>Listas não ordenadas</h2>
+    <p>Para criarmos listas não ordenadas utilizamos a tag <mark style="background-color: aqua;">&lt; ul &gt;</mark>
+    e também iremos utilizar novamente a tag <mark style="background-color: aqua;">&lt; li &gt;</mark> para listar os itens da lista.
+    </p>
+    <ul type = "disk"> <!-- Types circle, square, disk(padrão)-->
+
+        <li>estudar java</li>
+        <li>estudar html</li>
+        <li>estudar banco de dados</li>
+        <li>estudar <abbr title="Interação Homem Computador">IHC</abbr></li>
+
+    </ul>
+    <p>Também podemos personalizar nossas listas não ordenadas. Para tal utilizamos dentro da tag &lt; ul &gt;
+        novamente o parâmetro <mark style="background-color: aqua;">type</mark> e poderemos escolher o estilo de formataçã
+        por meio das palavras (circle, square, disk(padrão)). 
+    </p>
+    <p><mark style="background-color: aqua;">type = "circle"</mark></p>
+
+    <h2>Lista de definições</h2>
+    <p>Utiliza-se as tags: <mark style="background-color: aqua;">&lt; dl &gt;</mark> (dt = Lista definida), <mark style="background-color: aqua;">&lt; dt &gt;</mark> (dt = termo), <mark style="background-color: aqua;">&lt; dd &gt;</mark> (dd = descrição do termo)</p>
+
+    <dl> <!-- dl == Lista de definição-->
+
+        <dt> HTML </dt> <!-- dt == Termo -->
+        <dd> Linguagem de marcação para a criação do conteúdo de um site.</dd> <!-- Descrição -->
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a cricação do design de um site.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+
+    </dl>
+    
+</body>
+</html>
