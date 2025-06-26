@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: lightgray;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            text-align: center;
+        }
+
+        header{
+            width: 600px;
+            background-color: rgb(178, 185, 184);
+            padding: 10px;
+            margin-left: 10px;
+        }
+        nav{
+            background-color: cadetblue;
+            color: aliceblue;
+            padding: 2px;
+            padding-left: 4px;
+            font-weight: bold;
+            box-shadow: 1px 1px 1px black;
+        }
+        a{
+            color: white;
+            padding-left: 3px;
+        }
+        main{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            margin-top: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.384);
+        }
+        footer{
+            padding: 10px;
+            width: 600px;
+            margin-left: 10px;
+            background-color: brown;
+            margin-top: 40px;
+        }
+        #principal{
+            background-color: aquamarine;
+            margin-right: 300px;
+        }
+       
+       article > aside{
+        background-color: gray;
+       }
+       article > p{
+        background-color: brown;
+        padding-left: 10px;
+        text-indent: 10px;
+        margin: 0px;
+        padding-top: 5px;
+       }
+       .bordacima{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-width: 5px;
+       }
+       .bordabaixo{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+       }
+       aside > p{
+        margin-top: 40px;
+        padding-left: 5px;
+       }
+       footer > p{
+        margin: 0px;
+       }
+       div#bola{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header> 
+    
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2 id="principal">Noticia sobre o Brasil</h2>
+                <p class="bordacima">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi quo doloremque optio, impedit minus sunt odio voluptate. Voluptatibus totam cum nostrum esse excepturi, officia incidunt repudiandae voluptatem molestiae nisi! <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloribus quibusdam quo quaerat, reprehenderit consectetur provident nesciunt! Adipisci beatae incidunt similique eos earum, ratione vel voluptatibus laudantium consequatur numquam temporibus.</p>
+
+                <p class="bordabaixo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aspernatur rerum fugiat, dolorem repellat pariatur expedita consequuntur aut incidunt tempore velit veritatis vel deleniti recusandae nesciunt nobis quisquam optio neque.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+
+        <section></section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+        <a href="#">Link do rodape</a>
+
+        <div id="bola"></div>
+    </footer>
+</body>
+</html>
